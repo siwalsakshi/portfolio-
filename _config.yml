@@ -1,0 +1,16 @@
+title: Sakshi Siwal # your name (or website title) here
+logo: "/images/sakshi_profile.jpg?raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+  Software Developer (SDE) | Final-year B.Tech Computer Engineering at ABES Engineering College.
+  <br><br>
+  Published <strong>Ago-Carpooling</strong> on Google Play Store. Solved 1000+ problems on CodeChef (Diamond Badge) & 250+ LeetCode DSA problems.
+  <br><br>
+  <a href="https://www.linkedin.com/in/sakshi-siwal">LinkedIn</a> &bull; 
+  <a href="https://github.com/siwalsakshi">GitHub</a> &bull; 
+  <a href="https://www.codechef.com/users/siwal_sakshi">CodeChef</a> &bull; 
+  <a href="https://leetcode.com/u/siwalsakshi">LeetCode</a> &bull; 
+  <a href="mailto:sakshishiwal@gmail.com">Email</a>
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
