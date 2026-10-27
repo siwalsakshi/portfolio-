@@ -161,6 +161,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
+  // 7. Copy Resume Link with Toast Feedback
+  window.copyResumeLink = function() {
+    const resumeUrl = new URL('assets/docs/Sakshi_Siwal_Resume.pdf', window.location.href).href;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(resumeUrl).then(() => {
+        showToast('Direct resume link copied to clipboard!');
+      }).catch(() => {
+        showToast('Resume ready at: assets/docs/Sakshi_Siwal_Resume.pdf');
+      });
+    } else {
+      showToast('Resume ready at: assets/docs/Sakshi_Siwal_Resume.pdf');
+    }
+  };
+
   function showToast(message) {
     const toast = document.getElementById('toast');
     if (!toast) return;
@@ -170,4 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
       toast.classList.remove('show');
     }, 3200);
   }
+
+  window.showToast = showToast;
 });

@@ -40,6 +40,8 @@ Personal portfolio website for **Sakshi Siwal**, final-year B.Tech Computer Engi
 │   ├── css/
 │   │   ├── portfolio.css   # Main modern stylesheet (dark/light themes, responsive layout)
 │   │   └── style.css       # Jekyll theme stylesheet entry
+│   ├── docs/
+│   │   └── Sakshi_Siwal_Resume.pdf # Downloadable ATS-friendly Software Developer resume
 │   └── js/
 │       └── portfolio.js    # Theme switcher, typing effect, project filtering, toast notifications
 └── images/                 # Optimized project mockups and profile imagery
