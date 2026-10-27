@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines (Googlebot, Bingbot, etc.) to crawl and index all pages
+Sitemap: /sitemap.xml
